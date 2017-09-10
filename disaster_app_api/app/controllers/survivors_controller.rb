@@ -46,6 +46,6 @@ class SurvivorsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def survivor_params
-      params.require(:survivor).permit(:name, :number, :lat, :lng)
+      params.require(:survivor).permit(:lat, :lng, :name, :number)
     end
 end

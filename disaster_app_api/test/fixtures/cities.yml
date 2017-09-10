@@ -1,13 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  lat: 9.99
-  lng: 9.99
   name: MyString
-  number: MyString
+  emergency_number: MyString
+  extra_info: MyString
 
 two:
-  lat: 9.99
-  lng: 9.99
   name: MyString
-  number: MyString
+  emergency_number: MyString
+  extra_info: MyString
